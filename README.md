@@ -9,13 +9,15 @@ leafmap 문서 및 자료 공개용 레포입니다.
 
 **개발 기간**
 기획 2024.03 - 2024.08
+
 개발 및 테스트 2024.09 - 
+
 **담당 역할** 
 프로젝트 기획, 일정 관리, 백엔드 API 설계 및 구현, CI/CD, 서버 환경 구축 및 모니터링, 테스트 피드백 
 
 ---
 ### 사용 기술
-Spring boot, jpa, Spring security+JWT+OAuth, mariaDB, redis, Flutter, AWS(EC2, RDS, S3), Github Action, Docker, Google Place API, JUnit5, Git, Notion
+Spring boot, jpa, Spring security+JWT+OAuth, mariaDB, redis, Flutter, AWS(EC2, RDS, S3), Github Action, Docker, Google Place API, Git, Notion
 
 ### 주요 기여 내용
 - 전반적인 프로젝트 기획 및 지속적인 수정 / ERD 설계

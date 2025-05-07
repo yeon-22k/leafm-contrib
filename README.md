@@ -1,25 +1,46 @@
-leafmap 문서 및 자료 공개용 레포입니다.
-원본 협업 레포는 이전 키 노출 이슈와 스토어 배포 준비 중으로 private하게 관리되고 있습니다.
+# leafm-contrib
 
-# Leafmap
-플레이스 기반 노트 아카이빙 서비스
+✔️**개인 포트폴리오용으로 정리된 레포지토리입니다.**
 
-### 개요
-장소 공간에서의 경험들을 노트로 기록하며 공유하고, 스탬프를 통해 성취감을 높이는 안드로이드 어플리케이션
-
-**개발 기간**
-기획 2024.03 - 2024.08
-
-개발 및 테스트 2024.09 - 
-
-**담당 역할** 
-프로젝트 기획, 일정 관리, 백엔드 API 설계 및 구현, CI/CD, 서버 환경 구축 및 모니터링, 테스트 피드백 
+프로젝트 **Leafmap**의 핵심 아이디어 및 설계 내용과 직접 구현하고 기여한 내용을 정리한 개인 아카이브입니다.  
+스토어 배포 준비 중으로 원본 코드는 포함되어 있지 않으며 요청 시 일부 제공 가능합니다.
 
 ---
-### 사용 기술
-Spring boot, jpa, Spring security+JWT+OAuth, mariaDB, redis, Flutter, AWS(EC2, RDS, S3), Github Action, Docker, Google Place API, Git, Notion
 
-### 주요 기여 내용
+### 🌿Leafmap
+플레이스 기반 노트 아카이빙 서비스 <br>
+장소 공간에서의 경험들을 노트로 기록하며 공유하고, 스탬프를 통해 성취감을 높이는 안드로이드 어플리케이션
+
+**담당 역할** :
+프로젝트 기획, 일정 관리, 백엔드 API 설계 및 구현, CI/CD, 서버 환경 구축 및 모니터링, 테스트 피드백 
+
+**사용 기술** : <br>
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white)
+![JPA](https://img.shields.io/badge/JPA-007396?style=flat&logo=hibernate&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat&logo=spring-security&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white)
+![OAuth2](https://img.shields.io/badge/OAuth2-3C5A99?style=flat&logo=oauth&logoColor=white)
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat&logo=mariadb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
+![EC2](https://img.shields.io/badge/EC2-FF9900?style=flat&logo=amazon-ec2&logoColor=white)
+![RDS](https://img.shields.io/badge/RDS-527FFF?style=flat&logo=amazon-rds&logoColor=white)
+![S3](https://img.shields.io/badge/S3-569A31?style=flat&logo=amazon-s3&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Google Place API](https://img.shields.io/badge/Google%20Place%20API-4285F4?style=flat&logo=google&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![Notion](https://img.shields.io/badge/Notion-000000?style=flat&logo=notion&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat&logo=swagger&logoColor=black)
+
+**기타문서** : <br>
+- [ERD](https://github.com/yeon-22k/leafm-contrib/blob/브랜치명/경로/파일명)
+- [시스템 아키텍처](https://github.com/yeon-22k/leafm-contrib/blob/브랜치명/경로/파일명)
+- [Swagger API 목록](https://github.com/yeon-22k/leafm-contrib/blob/브랜치명/경로/파일명)
+
+---
+
+### 🛠️주요 기여 내용
 - 전반적인 프로젝트 기획 및 지속적인 수정 / ERD 설계
 - API 엔드포인트 10개 이상 설계 및 개발 (Swagger기준 Note, Folder, Scrap, Notification)
 - 인프라 구축 및 관리
@@ -31,29 +52,5 @@ Spring boot, jpa, Spring security+JWT+OAuth, mariaDB, redis, Flutter, AWS(EC2, R
 - Redis 캐싱 구현
 - 팀 협업 및 일정 관리, 문서화
 
-### 시스템 아키텍쳐
-[시스템 아키텍쳐 이미지 삽입 예정
-
-### ERD
-[ERD 이미지 삽입 예정
-
-### API 문서(Swagger)
-[Swagger API 목록 이미지 삽입 예정
-Swagger 링크
-
-### CICD
-**Github Actions를 통해 develop 브랜치 push 시 자동 docker 이미지 빌드**
-**Docker compose로 Spring boot app + redis 컨테이너 구성**
-AWS EC2 서버에 무중단 배포 적용
-초기 Jenkins로 배포 시도 → 용량 이슈로 Github Actions로 전환
-
----
->블로그 링크: 
-### Trouble Shooting
-트러블 슈팅은 기술 블로그에 정리하고 있으며, 아래는 leafmap 프로젝트를 하며 진행한 트러블슈팅 목록입니다.
-
-### 프로젝트 회고
-이런 점을 배웠습니다.
-
-더 자세한 회고는 블로그에 정리중입니다.
-
+>블로그 링크: https://velog.io/@yeon22 <br>
+>트러블 슈팅과 프로젝트 회고는 기술 블로그에 정리하고 있습니다.

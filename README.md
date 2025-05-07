@@ -26,6 +26,7 @@
 ![EC2](https://img.shields.io/badge/EC2-FF9900?style=flat&logo=amazon-ec2&logoColor=white)
 ![RDS](https://img.shields.io/badge/RDS-527FFF?style=flat&logo=amazon-rds&logoColor=white)
 ![S3](https://img.shields.io/badge/S3-569A31?style=flat&logo=amazon-s3&logoColor=white)
+<br>
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![Google Place API](https://img.shields.io/badge/Google%20Place%20API-4285F4?style=flat&logo=google&logoColor=white)
@@ -43,14 +44,13 @@
 ### 🛠️주요 기여 내용
 - 전반적인 프로젝트 기획 및 지속적인 수정 / ERD 설계
 - API 엔드포인트 10개 이상 설계 및 개발 (Swagger기준 Note, Folder, Scrap, Notification)
-- 인프라 구축 및 관리
-- CI/CD
+- 서버 인프라 구축 및 관리
+- CI/CD 파이프라인 구현
 - 이슈 발생 시 로그 기반 원인 분석 및 공유
 - FCM 푸시 알림 구현(백에서는 구현 완료했지만, 배포는 프론트 준비 상황에 따라 대기 중)
 - 기존 구현된 인증 구조(Spring security+Jwt+OAuth2) 유지보수
-- 예외처리 설계 및 개발
-- Redis 캐싱 구현
+- 반복되는 체크로직 공통 클래스 설계 및 개발
+- 보안 이슈 대응
 - 팀 협업 및 일정 관리, 문서화
 
->블로그 링크: https://velog.io/@yeon22 <br>
->트러블 슈팅과 프로젝트 회고는 기술 블로그에 정리하고 있습니다.
+>📚관련 회고 및 트러블슈팅은 [기술 블로그](https://velog.io/@yeon22)에서 확인하실 수 있습니다.

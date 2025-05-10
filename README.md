@@ -2,8 +2,9 @@
 
 ✔️**개인 포트폴리오용으로 정리된 레포지토리입니다.**
 
-프로젝트 **Leafmap**의 핵심 아이디어 및 설계 내용과 직접 구현하고 기여한 내용을 정리한 개인 아카이브입니다.  
-스토어 배포 준비 중으로 원본 코드는 포함되어 있지 않으며 요청 시 일부 제공 가능합니다.
+본 레포는 팀 프로젝트 **Leafmap**의 핵심 아이디어 및 설계 내용과 직접 구현하고 기여한 내용을 개인적으로 정리한 문서 아카이브입니다.  
+프로젝트의 코드 레포지토리는 private 상태로 운영중이며, 스토어 배포 준비 중으로 원본 코드는 포함되어 있지 않습니다.<br>
+일부 구현에 대한 코드 및 설명은 요청 시 제한적으로 제공 가능합니다.
 
 ---
 
@@ -11,7 +12,7 @@
 플레이스 기반 노트 아카이빙 서비스 <br>
 장소 공간에서의 경험들을 노트로 기록하며 공유하고, 스탬프를 통해 성취감을 높이는 안드로이드 어플리케이션
 
-**담당 역할** :
+**담당 업무** :
 프로젝트 기획, 일정 관리, 백엔드 API 설계 및 구현, CI/CD, 서버 환경 구축 및 모니터링, 테스트 피드백 
 
 **사용 기술** : <br>
@@ -35,9 +36,9 @@
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat&logo=swagger&logoColor=black)
 
 **기타문서** : <br>
-- [ERD](https://github.com/yeon-22k/leafm-contrib/blob/브랜치명/경로/파일명)
-- [시스템 아키텍처](https://github.com/yeon-22k/leafm-contrib/blob/브랜치명/경로/파일명)
-- [Swagger API 목록](https://github.com/yeon-22k/leafm-contrib/blob/브랜치명/경로/파일명)
+- [ERD](https://github.com/yeon-22k/leafm-contrib/blob/main/leafmap-erd.png)
+- [시스템 아키텍처](https://github.com/yeon-22k/leafm-contrib/blob/main/system-architecture.md)
+- [Swagger API 목록](https://github.com/yeon-22k/leafm-contrib/blob/main/swagger-api-list.md)
 
 ---
 
